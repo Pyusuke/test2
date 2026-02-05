@@ -1,6 +1,6 @@
 import type { UseCase } from '@claude-code-cases/core';
-import { BaseCollector, type CollectResult, type CollectorConfig } from '../base/base-collector.js';
-import { sampleUseCases } from './sample-data.js';
+import { BaseCollector, type CollectResult, type CollectorConfig } from '../base/base-collector';
+import { sampleUseCases } from './sample-data';
 
 export interface ManualCollectorConfig extends CollectorConfig {
   useCases?: UseCase[];

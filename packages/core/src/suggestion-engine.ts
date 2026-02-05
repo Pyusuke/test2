@@ -1,5 +1,5 @@
-import type { UseCase, SuggestionContext, SuggestionResult, UseCaseCategory } from './types.js';
-import { getStorage } from './storage.js';
+import type { UseCase, SuggestionContext, SuggestionResult, UseCaseCategory } from './types';
+import { getStorage } from './storage';
 
 // タスクキーワードとカテゴリのマッピング
 const taskCategoryMapping: Record<string, UseCaseCategory[]> = {

@@ -1,4 +1,4 @@
-import type { UseCase, SearchQuery, SearchResult } from './types.js';
+import type { UseCase, SearchQuery, SearchResult } from './types';
 
 // ストレージインターフェース
 export interface IStorage {

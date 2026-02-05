@@ -1,5 +1,5 @@
-import type { UseCase, SearchQuery, SearchResult } from './types.js';
-import { getStorage } from './storage.js';
+import type { UseCase, SearchQuery, SearchResult } from './types';
+import { getStorage } from './storage';
 
 export class SearchEngine {
   // 基本検索
